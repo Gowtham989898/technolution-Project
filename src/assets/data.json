@@ -1,0 +1,32 @@
+[
+    {
+        "name": "rajiv",
+        "marks": 
+        {
+            "Maths": 18,
+            "English": 21,
+            "Science": 45
+        },
+        "rollNumber": 9083494903
+    },
+    {
+        "name": "abhishek",
+        "marks": 
+        {
+            "Maths": 43,
+            "English": 30,
+            "Science": 37
+        },
+        "rollNumber": 83476874
+    },
+    {
+        "name": "zoya",
+        "marks": 
+        {
+            "Maths": 42,
+            "English": 31,
+            "Science": 50
+        },
+        "rollNumber": 926827698
+    }
+]

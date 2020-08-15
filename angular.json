@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "techolution"
+    }
+  },
+  "defaultProject": "techolution",
+  "cli": {
+    "analytics": "d204374b-2691-48ae-bed4-8665621a68ca"
+  }
 }

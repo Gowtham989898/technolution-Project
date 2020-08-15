@@ -1,0 +1,28 @@
+<div class="container">
+    <table class="table table-striped">>
+        <thead>
+            <tr>
+                <th><h1><b> <i>Students Result Board</i></b></h1></th>
+            </tr>
+            <tr>
+                <th><b> <i>Student Name</i></b></th>
+                <th><b> <i>Roll Number</i></b></th>
+                <th><b> <i>Total Marks</i></b></th>
+                <th><b> <i>Status</i></b></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor = "let item of data">
+                <td>{{item.name}}</td>
+                <td>{{item.rollNumber}}</td>
+                <td>{{item.marks['Maths']+item.marks['English']+item.marks['Science']}} </td>
+                <td >
+                    <span id="x" *ngIf="item.marks['Maths']+item.marks['English']+item.marks['Science']>100"> Pass</span>
+                    <span id="y" *ngIf="item.marks['Maths']+item.marks['English']+item.marks['Science']<100"> Fail</span>
+                </td>
+                    
+                </tr>
+        </tbody>
+    </table>
+</div>
+
